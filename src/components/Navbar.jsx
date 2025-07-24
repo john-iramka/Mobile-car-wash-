@@ -15,7 +15,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="bg-black shadow-md sticky top-0 z-50">
+    <nav className="bg-black/30 backdrop-blur-md shadow-md sticky top-0 z-50 transition-all duration-300">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <a href="#home" className="text-2xl font-bold text-[#d4af37]">ShineXpress</a>
@@ -51,7 +51,7 @@ export default function Navbar() {
         
         {/* Mobile Navigation Menu */}
         {isOpen && (
-          <div className="md:hidden bg-[#1e1e1e] mt-4 rounded-lg p-4">
+          <div className="md:hidden bg-black/80 backdrop-blur-md mt-4 rounded-lg p-4">
             <div className="flex flex-col space-y-4">
               {navLinks.map((link) => (
                 <a 

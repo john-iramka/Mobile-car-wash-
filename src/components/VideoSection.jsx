@@ -6,7 +6,7 @@ const VideoSection = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/videos/burner.mp4" // Replace with your actual video
+        src="/videos/burner.mp4" 
         autoPlay
         muted
         loop
