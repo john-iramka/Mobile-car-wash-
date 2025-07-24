@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-black: #121212;
+  --secondary-black: #1e1e1e;
+  --accent-gold: #d4af37;
+  --light-text: #f8f9fa;
+  --dark-grey: #2a2a2a;
+  --glass-bg: rgba(30, 30, 30, 0.85);
+}
+
+/* Custom animations */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-15px);}
+  60% {transform: translateY(-7px);}
+}
+
+@keyframes pulse {
+  0% {box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7);}
+  70% {box-shadow: 0 0 0 15px rgba(212, 175, 55, 0);}
+  100% {box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);}
+}
+
+/* Custom classes */
+.glass-effect {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.glass-effect-gold {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.bounce-animation {
+  animation: bounce 2s infinite;
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+/* Override some Tailwind styles */
+.text-primary {
+  color: var(--accent-gold) !important;
+}
+
+.bg-primary {
+  background-color: var(--accent-gold) !important;
+}
+
+.border-primary {
+  border-color: var(--accent-gold) !important;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
