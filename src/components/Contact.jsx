@@ -14,7 +14,7 @@ export default function Contact() {
                   <FaPhoneAlt className="text-[#d4af37] mr-3" />
                   Phone
                 </h3>
-                <p><a href="tel:+254712345678" className="hover:text-[#d4af37] transition-colors">+254 712 345 678</a></p>
+                <p><a href="tel:+254115771294" className="hover:text-[#d4af37] transition-colors">+254 712 345 678</a></p>
               </div>
               
               <div>

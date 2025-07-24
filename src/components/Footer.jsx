@@ -57,7 +57,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-start">
                 <span className="mr-2">📞</span>
-                <a href="tel:+254712345678" className="hover:text-[#d4af37] transition-colors">+254 712 345 678</a>
+                <a href="tel:+254115771294" className="hover:text-[#d4af37] transition-colors">+254 712 345 678</a>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">✉️</span>
