@@ -44,10 +44,10 @@ function App() {
       <Navbar />
       <Hero />
       <Intro />
-      <VideoSection />
-      <ParallaxSection />
       <Services />
+      <VideoSection />
       <Pricing />
+      <ParallaxSection />
       <Gallery />
       <Testimonials />
       <FAQ />
