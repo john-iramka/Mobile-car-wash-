@@ -1,20 +1,31 @@
-export default function VideoSection() {
+import { motion } from 'framer-motion';
+
+const VideoSection = () => {
   return (
-    <section className="bg-[#1e1e1e] py-16 px-4">
-      <div className="container mx-auto">
-        <h2 className="text-center text-3xl md:text-4xl font-bold mb-12">See Us In Action</h2>
-        <div className="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
-          <div className="aspect-w-16 aspect-h-9">
-            <iframe 
-              src="https://www.youtube.com/embed/9No-FiEInLA?autoplay=0&showinfo=0&controls=1" 
-              title="ShineXpress Car Wash Demonstration"
-              className="w-full h-[250px] md:h-[450px]"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+    <section className="relative h-screen w-full overflow-hidden bg-black">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        src="/videos/burner.mp4" // Replace with your actual video
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+
+      {/* Overlay content */}
+      <div className="relative z-10 flex items-center justify-center h-full bg-black/50 px-4">
+        <motion.h2
+          initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-4xl md:text-5xl font-bold text-center text-white"
+        >
+          See Us In Action
+        </motion.h2>
       </div>
     </section>
-  )
-}
+  );
+};
+
+export default VideoSection;
