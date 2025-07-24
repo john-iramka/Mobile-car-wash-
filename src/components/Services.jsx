@@ -4,22 +4,22 @@ const services = [
   {
     title: "Basic Wash",
     description: "Exterior wash, wheel cleaning, and window cleaning.",
-    image: "https://images.pexels.com/photos/5592594/pexels-photo-5592594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "/images/1.jpg"
   },
   {
     title: "Interior Cleaning",
     description: "Vacuuming, dashboard cleaning, and seat sanitizing.",
-    image: "https://images.pexels.com/photos/5231161/pexels-photo-5231161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "/images/1.jpg"
   },
   {
     title: "Full Detailing",
     description: "Complete interior and exterior deep cleaning.",
-    image: "https://images.pexels.com/photos/5231163/pexels-photo-5231163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "/images/1.jpg"
   },
   {
     title: "Buffing & Add-ons",
     description: "Paint buffing, car perfume, leather conditioning & more.",
-    image: "https://images.pexels.com/photos/5593053/pexels-photo-5593053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "/images/1.jpg"
   }
 ]
 
@@ -33,16 +33,24 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-[#1e1e1e] rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300"
+              className="relative group bg-[#1e1e1e] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105"
             >
+              {/* Image */}
               <img
                 src={service.image}
                 alt={service.title}
                 className="w-full h-48 object-cover"
               />
+
+              {/* Optional Hover Overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-center px-4">
+                <p className="text-white font-semibold text-lg">{service.title}</p>
+              </div>
+
+              {/* Text */}
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                <p className="text-gray-300">{service.description}</p>
+                <p className="text-gray-300 text-sm">{service.description}</p>
               </div>
             </div>
           ))}
