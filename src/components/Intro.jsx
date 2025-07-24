@@ -15,7 +15,7 @@ export default function Intro() {
       {/* Right Panel - Dark Gray Background */}
       <div className="lg:w-1/2 bg-[#1e1e1e] text-white p-10 space-y-6">
         <p className="text-base leading-relaxed">
-          ShineXpress Mobile Car Wash brings <strong className="text-white">professional cleaning</strong> to your doorstep in Nairobi.
+          Buff ‘n’ Go Mobile Car Wash brings <strong className="text-white">professional cleaning</strong> to your doorstep in Nairobi.
           No more queues — just <strong className="text-white">eco-friendly</strong>, time-saving detailing by trained technicians.
         </p>
 

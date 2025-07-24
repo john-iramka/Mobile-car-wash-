@@ -22,7 +22,7 @@ export default function Contact() {
                   <FaEnvelope className="text-[#d4af37] mr-3" />
                   Email
                 </h3>
-                <p><a href="mailto:info@shinexpress.co.ke" className="hover:text-[#d4af37] transition-colors">info@shinexpress.co.ke</a></p>
+                <p><a href="mailto:info@Buff ‘n’ Go.co.ke" className="hover:text-[#d4af37] transition-colors">info@Buff ‘n’ Go.co.ke</a></p>
               </div>
               
               <div>
@@ -44,16 +44,16 @@ export default function Contact() {
               <div>
                 <h3 className="text-xl mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
-                  <a href="https://facebook.com/shinexpress" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
+                  <a href="https://facebook.com/Buff ‘n’ Go" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
                     <FaFacebookF size={20} />
                   </a>
-                  <a href="https://instagram.com/shinexpress" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
+                  <a href="https://instagram.com/Buff ‘n’ Go" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
                     <FaInstagram size={20} />
                   </a>
-                  <a href="https://tiktok.com/@shinexpress" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
+                  <a href="https://tiktok.com/@Buff ‘n’ Go" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
                     <FaTiktok size={20} />
                   </a>
-                  <a href="https://twitter.com/shinexpress" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
+                  <a href="https://twitter.com/Buff ‘n’ Go" className="text-white hover:text-[#d4af37] transition-colors" target="_blank" rel="noopener noreferrer">
                     <FaTwitter size={20} />
                   </a>
                 </div>
@@ -65,7 +65,7 @@ export default function Contact() {
             <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808477395885!2d36.8211593147539!3d-1.286385835980925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d71cc97cc5%3A0x4a01f8b1a4fdc0e5!2sNairobi%20CBD!5e0!3m2!1sen!2ske!4v1620000000000!5m2!1sen!2ske" 
-                title="ShineXpress Location Map"
+                title="Buff ‘n’ Go Location Map"
                 className="w-full h-64 md:h-96"
                 allowFullScreen
                 loading="lazy"

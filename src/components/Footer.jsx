@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold text-[#d4af37] mb-4">ShineXpress</h3>
+            <h3 className="text-2xl font-bold text-[#d4af37] mb-4">Buff ‘n’ Go</h3>
             <p className="text-gray-400">
               Nairobi's premier mobile car wash service. We bring professional cleaning right to your doorstep.
             </p>
@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 <span className="mr-2">✉️</span>
-                <a href="mailto:info@shinexpress.co.ke" className="hover:text-[#d4af37] transition-colors">info@shinexpress.co.ke</a>
+                <a href="mailto:info@Buff ‘n’ Go.co.ke" className="hover:text-[#d4af37] transition-colors">info@Buff ‘n’ Go.co.ke</a>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">📍</span>
@@ -75,7 +75,7 @@ export default function Footer() {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; 2023 ShineXpress Mobile Car Wash. All rights reserved.
+            &copy; 2023 Buff ‘n’ Go Mobile Car Wash. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm">
             Website designed for Nairobi's finest mobile car wash service

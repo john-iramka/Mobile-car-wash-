@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="bg-black/30 backdrop-blur-md shadow-md sticky top-0 z-50 transition-all duration-300">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <a href="#home" className="text-2xl font-bold text-[#d4af37]">ShineXpress</a>
+          <a href="#home" className="text-2xl font-bold text-[#d4af37]">Buff ‘n’ Go</a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
