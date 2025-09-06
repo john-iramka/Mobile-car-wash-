@@ -6,12 +6,12 @@ export default function About() {
         {/* Left Side - Image with dark overlay */}
         <div className="w-full lg:w-1/2 relative h-[400px] lg:h-auto">
           <img
-            src="/images/1.jpg" // 🔁 Replace with your own image path
+            src="/images/companycar.png" 
             alt="Buff ‘n’ Go team"
             className="w-full h-full object-cover object-center"
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         </div>
 
         {/* Right Side - Text */}

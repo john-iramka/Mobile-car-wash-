@@ -45,6 +45,7 @@ function App() {
       <Hero />
       <Intro />
       <Services />
+      <BookingForm />
       <VideoSection />
       <Pricing />
       <ParallaxSection />
@@ -52,7 +53,6 @@ function App() {
       <Testimonials />
       <FAQ />
       <About />
-      <BookingForm />
       <Contact />
       <Footer />
       <WhatsAppFloat />

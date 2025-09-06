@@ -4,22 +4,22 @@ const services = [
   {
     title: "Basic Wash",
     description: "Exterior wash, wheel cleaning, and window cleaning.",
-    image: "/images/1.jpg"
+    image: "/images/wash.jpeg"
   },
   {
     title: "Interior Cleaning",
     description: "Vacuuming, dashboard cleaning, and seat sanitizing.",
-    image: "/images/1.jpg"
+    image: "/images/interiorclean.jpeg"
   },
   {
     title: "Full Detailing",
     description: "Complete interior and exterior deep cleaning.",
-    image: "/images/1.jpg"
+    image: "/images/fullcardetailing.jpeg"
   },
   {
     title: "Buffing & Add-ons",
     description: "Paint buffing, car perfume, leather conditioning & more.",
-    image: "/images/1.jpg"
+    image: "/images/buffing.jpeg"
   }
 ]
 
